@@ -1,0 +1,45 @@
+{
+  "dataset": "cdd11",
+  "num_classes": 11,
+  "seed": 1415926,
+  "global_batch_size": 32,
+  "ema_decay": 0.999,
+  "model": {
+    "block_size": 8,
+    "train_remote_k": 32,
+    "eval_remote_k": 16,
+    "dsffn_expansion": 3,
+    "spatial_ranks": [
+      16,
+      16,
+      32,
+      64
+    ]
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "start_lr": 1e-06,
+    "min_lr": 1e-06,
+    "betas": [
+      0.9,
+      0.9
+    ],
+    "weight_decay": 0.001
+  },
+  "stages": {
+    "train": {
+      "epochs": 240,
+      "patch_size": 256,
+      "warmup_epochs": 15,
+      "checkpoint_every": 10,
+      "loss": {
+        "l1": 1.0,
+        "fft": 0.1,
+        "msssim": 0.15,
+        "ce": 0.1,
+        "label_smoothing": 0.1
+      }
+    }
+  }
+}

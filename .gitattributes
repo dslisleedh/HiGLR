@@ -1,0 +1,2 @@
+# Preserve the bundled R2R files byte-for-byte for manifest verification.
+reference/r2r/** -text
