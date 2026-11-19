@@ -2,7 +2,7 @@
 
 This repository is the official implementation of **High-resolution Global-Local Restoration (HiGLR)**.
 
-**Paper** · TODO | [Pre-trained Models](https://huggingface.co/collections/dslisleedh/higlr-6afe8ceef60900a77a8a4fde)
+**Paper** · TODO | [Pre-trained Models](https://huggingface.co/collections/dslisleedh/higlr-6afe8ceef60900a77a8a4fde) | [CDD-11 Demo](https://huggingface.co/spaces/dslisleedh/HiGLR-CDD11)
 
 ![CDD-11 restoration. The moving divider shows the degraded input on the left and the HiGLR output on the right.](docs/comparison/cdd11-wipe.gif)
 
