@@ -8,6 +8,8 @@ This repository is the official implementation of **High-resolution Global-Local
 
 [Download the interactive comparison](docs/comparison/slider.html?raw=true) and open it in a browser to move the divider.
 
+![HiGLR teaser](figs/teaser.png)
+
 ## Abstract
 
 > Multi-scale architectures are widely adopted in all-in-one image restoration (AIO-IR) to capture larger-scale context at low-resolution stages and refine details at high-resolution (HR) stages.
